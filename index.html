@@ -1,0 +1,1204 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>PrimeVue Demo</title>
+	<base href='http://vite-chain.dev/index.html' />
+	<link href="https://unpkg.com/primevue/resources/themes/lara-light-indigo/theme.css" rel="stylesheet" />
+	<link href="https://unpkg.com/primevue/resources/primevue.min.css" rel="stylesheet" />
+	<link href="https://unpkg.com/primeicons/primeicons.css" rel="stylesheet" />
+	<link href="https://unpkg.com/primeflex@^3/primeflex.css" rel="stylesheet" />
+
+	<link rel="stylesheet" type="text/css" href="./tmp/assets/css/style.css?v=1.2.9" />
+
+	<script src="https://unpkg.com/vue@next"></script>
+	<script src="https://unpkg.com/primevue/core/core.min.js"></script>
+	<script src="https://unpkg.com/primevue/slider/slider.min.js"></script>
+	<!-- vendor -->
+	<script src="./tmp/assets/js/jquery.2.2.3.min.js"></script>
+	<script src="./tmp/assets/js/popper.min.js"></script>
+	<script src="./tmp/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="./tmp/assets/js/jquery.easing.min.js"></script>
+	<script src="./tmp/assets/js/jquery.appear.js"></script>
+	<script src="./tmp/assets/js/jquery.countTo.js"></script>
+	<script src="./tmp/assets/js/jquery.fancybox.min.js"></script>
+	<script src="./tmp/assets/js/owl.carousel.min.js"></script>
+	<script src="./tmp/assets/js/aos.js"></script>
+	<script src="./tmp/assets/js/theme.js"></script>
+	<script src="./tmp/assets/js/calculator.js?v=0.6"></script>
+</head>
+
+<body>
+	<div id="app">
+		<!-- -->
+		<div class="main-page-wrapper">
+			<div id="loader-wrapper" style="display: none;">
+				<div id="loader" style="display: none;"></div>
+			</div>
+			<div class="html-top-content">
+				<div class="theme-top-section">
+					<header class="theme-main-menu">
+						<div class="container">
+							<div class="menu-wrapper clearfix">
+								<div class="logo">
+									<a style=" margin-top: -6px;" href="/">
+										<img src="./tmp/assets/images/cwlg.png" width="210" height="auto" border="0">
+									</a>
+								</div>
+								<nav class="navbar navbar-expand-lg" id="mega-menu-holder">
+									<div class="container">
+										<button class="navbar-toggler" type="button" data-toggle="collapse"
+											data-target="#navbarResponsive" aria-controls="navbarResponsive"
+											aria-expanded="false" aria-label="Toggle navigation">
+											<i class="fa fa-bars" aria-hidden="true"></i>
+										</button>
+										<div class="collapse navbar-collapse" id="navbarResponsive">
+											<ul class="navbar-nav">
+												<li class="nav-item">
+													<a class="nav-link js-scroll-trigger" href="#features">How to
+														earn</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link js-scroll-trigger" href="#revenue-share">Earn
+														Interest</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link js-scroll-trigger" href="#how">How to start</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link js-scroll-trigger" href="#stats">Statistics</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+												</li>
+												<li class="login-button">
+													<a href="/login">Login <i class="flaticon-right-thin"></i></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</header>
+					<div id="theme-banner" class="theme-banner-one">
+						<img src="./tmp/assets/images/k.png" alt="" class="illustration">
+						<img src="./tmp/assets/images/1.png" alt="" class="icon-shape-one">
+						<img src="./tmp/assets/images/2.png" alt="" class="icon-shape-two">
+						<img src="./tmp/assets/images/3.png" alt="" class="icon-shape-three">
+						<div class="round-shape-one"></div>
+						<div class="round-shape-two">
+							<img src="./tmp/assets/images/4.png" alt="">
+						</div>
+						<div class="round-shape-three"></div>
+						<div class="container">
+							<div class="main-text-wrapper" style="padding: 215px 0 180px;">
+								<h1>
+									Your <i class="fa fa-hashtag" aria-hidden="true" style="font-size: 35px;"></i>
+									1 Bitcoin <br>Rewards Platform.
+								</h1>
+								<div class="trustpilot-widget" data-locale="en-US"
+									data-template-id="5419b6a8b0d04a076446a9ad"
+									data-businessunit-id="5fbc174078da1f0001feb15d" data-style-height="24px"
+									data-style-width="100%" data-theme="light"
+									style="position: relative;float: left;left: -30px;margin-top: 20px;margin-bottom: 4px;">
+									<iframe
+										style="position: relative; height: 24px; width: 100%; border-style: none; display: block; overflow: hidden;"
+										title="Customer reviews powered by Trustpilot"
+										src="https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&amp;businessunitId=5fbc174078da1f0001feb15d#locale=en-US&amp;styleHeight=24px&amp;styleWidth=100%25&amp;theme=light"></iframe>
+								</div>
+								<h5 style="color: #818181;margin-top: 65px;margin-bottom: 40px;margin-bottom: 56px;">
+									<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+									Claim ➤ 6 satoshi every 15 minutes, view Ads, <br>do Surveys/Offers, earn
+									<u> <b>126% Interest on BTC</b></u>
+									and lots more...
+								</h5>
+								<ul class="button-group clearfix">
+									<li>
+										<a href="/login" class="download-button faa-parent animated-hover">
+											<i class="fa fa-sign-in faa-horizontal faa-reverse" aria-hidden="true"></i>
+											Login
+										</a>
+									</li>
+									<li>
+										<a href="/register" class="download-button faa-parent animated-hover">
+											<i class="fa fa-user-plus faa-pulse" aria-hidden="true"></i> Register
+											Account
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br><br>
+				<div class="our-features-one" style="margin-top: -80px; padding: 40px 0 22px;" id="features">
+					<div class="container">
+						<div class="theme-title">
+							<h2>
+								<i class="fa fa-hand-o-down" aria-hidden="true" style=" font-size: 35px; "></i> How to
+								<span>Earn</span>
+							</h2>
+						</div>
+						<div class="row rowpad">
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="0.2s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 0.2s;">
+								<div class="awesome-feature one style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> BITCOIN REWARD</h5>
+										<p>Earn Bitcoin by doing literally nothing - just completing a simple captcha.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="0.4s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 0.4s;">
+								<div class="awesome-feature two style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5>PTC ADS</h5>
+										<span> View our sponsored Advertisements and get instant rewarded. </span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="0.6s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 0.6s;">
+								<div class="awesome-feature three style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> EARN INTEREST</h5>
+										<p>Earn with Revenue program. Get some shares and earn a daily Passive Income.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row rowpad">
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="0.8s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 0.8s;">
+								<div class="awesome-feature four style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> PAID SURVEYS</h5>
+										<p>Take surveys while influencing the next generation of products &amp;
+											services.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="1s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 1s;">
+								<div class="awesome-feature five style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> DO OFFERS</h5>
+										<p>Get paid for trying new products and services (videos, apps, websites).</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="1s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 1s;">
+								<div class="awesome-feature five style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> Referral Contest</h5>
+										<p>Invite more friends and Win large prizes with our referral contest.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row rowpad">
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="1s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 1s;">
+								<div class="awesome-feature five style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> COIN MULTIPLIER</h5>
+										<p>Play our provably fair HI-LO Multiplier and and watch your BTC grow.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="1.2s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 1.2s;">
+								<div class="awesome-feature six style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body" style=" margin-bottom: 30px; ">
+										<h5> RAFFLE</h5>
+										<p>Try to hit big at our lottery! Remember, winners are chosen randomly.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-4 p-0 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="1.2s"
+								style="visibility: visible; animation-duration: 2s; animation-delay: 1.2s;">
+								<div class="awesome-feature six style-2 media">
+									<div class="awesome-feature-icon media-left" style=" padding-right: 7px;">
+										<span class="faa-parent animated-hover homecheck">
+											<i class="fa fa-check-square-o faa-tada homei" aria-hidden="true"></i>
+										</span>
+									</div>
+									<div class="asesome-feature-details media-body">
+										<h5> 50% FOR REFERRALS</h5>
+										<p>Get minimum 50% from all your referrals and earn additional income.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						<hr style=" width: 100%; max-width: 600px; ">
+						<div class="our-feature-two" id="revenue-share" style="padding: 10px;">
+							<br>
+							<div class="rev-h">
+								<i class="fa fa-line-chart" aria-hidden="true"></i> Revenue Share
+							</div>
+							<div class="container">
+								<div class="row single-block">
+									<div class="col-lg-6">
+										<div class="text">
+											<div class="number"></div>
+											<h2 class="title">
+												<br>Simply, <span>Profitably,</span> Conveniently!
+											</h2>
+											<center>
+												<p class="p1">Earn Bitcoin while you sleep! Receive <b>126%</b> total
+													return by investing with our Revenue-Share program.<br>
+													<button class="revbtn"><a href="/rev-share" class="abtn">Start
+															Earning Now</a></button>
+												</p>
+											</center>
+											<p class="faa-parent animated-hover"
+												style=" padding-bottom: 3px; padding-top: 5px; ">
+												<i class="fa fa-check faa-pulse ipulse" aria-hidden="true"></i>
+												Daily interest of <b>0.7%</b> is accrued to your balance.
+											</p>
+											<p class="faa-parent animated-hover"
+												style=" padding-bottom: 4px; padding-top: 0; ">
+												<i class="fa fa-check faa-pulse ipulse" aria-hidden="true"></i> Interest
+												duration: 180 days.
+											</p>
+											<p class="faa-parent animated-hover"
+												style=" padding-bottom: 4px; padding-top: 0; ">
+												<i class="fa fa-check faa-pulse ipulse" aria-hidden="true"></i> Bonus of
+												1% from each purchase of your referral.
+											</p>
+											<p class="faa-parent animated-hover"
+												style=" padding-bottom: 4px; padding-top: 0; ">
+												<i class="fa fa-check faa-pulse ipulse" aria-hidden="true"></i> Start
+												with only 1000 satoshi.
+												(<i class="fa fa-btc btc-small" aria-hidden="true">
+												</i> 0.00001000)
+											</p><br>
+											<button class="learn-more calcbtn Show">
+												<img src="./tmp/assets/images/calculator-icon.png" alt=""
+													class="calcwidth"> Calculate Profit
+												<i class="fa fa-chevron-down chevstyle" aria-hidden="true"></i>
+											</button>
+											<button class="learn-more calcbtn Hide">
+												<img src="./tmp/assets/images/calculator-icon.png" alt=""
+													class="calcwidth"> Calculate Profit
+												<i class="fa fa-chevron-up chevstyle" aria-hidden="true"></i>
+											</button>
+											<div id="profit-calculator" class="calcdiv">
+												<p class="price-note"><i class="fa fa-info-circle" aria-hidden="true"
+														style=" font-size: 15px; "></i> 1 Share = 1000 satoshi</p>
+												<br><span class="share-amount">Amount of Shares? </span>&nbsp;&nbsp;<div
+													class="number-input"><button
+														onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+														class="btn-less"></button><input class="quantity" id="txtAmount"
+														value="100" name="quantity" type="number"><button
+														onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+														class="plus btn-more"></button></div><br><br><input
+													type="hidden" id="txtRate" value="0.7"><input type="hidden"
+													id="txtDays" value="1"><span class="span-period">Investment Period
+												</span> &nbsp;&nbsp;&nbsp; <p class="invest-days">180 days</p>
+												<br><br><span>Daily Profit
+												</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+												<p class="invest-return">0.7%</p><br>
+												<div class="final-div"><span class="total-span">YOUR TOTAL RETURN
+														GUARANTEED WITHIN 180 DAYS</span><br><i
+														class="fa fa-btc btc-medium" aria-hidden="true"></i> <span
+														id="lblTotalProfit" class="total-profit">126000</span> <span
+														class="total-sat">satoshi</span><br><span
+														class="daily-accr">(<span id="lblDailyProfit">700</span> satoshi
+														daily accruals)</span><br><button class="revbtn"><a
+															href="/rev-share" class="abtn">Buy Shares &amp;
+															Earn</a></button><br></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 img-box">
+										<div>
+											<img src="./tmp/assets/images/cryptowin-invest.png" alt="">
+										</div>
+										<center style="margin-left: 10px; margin-right: 10px;">
+											<p class="pstats"><i class="fa fa-question-circle" aria-hidden="true"></i>
+												Statistics <i class="fa fa-share stats-arrow" aria-hidden="true"></i>
+											</p>
+											<div class="item1 faa-parent animated-hover faa-float">
+												<div class="main-wrapper">
+													<div class="textleft"><b>24 Nov, 2020</b></div>
+													<h6 class="hinfo">Started</h6>
+												</div><span class="span-right1"><i class="fa fa-calendar icolor1"
+														aria-hidden="true"></i></span>
+											</div>
+											<div class="item2 faa-parent animated-hover faa-float">
+												<div class="main-wrapper">
+													<div class="textleft"><b>1,145,883</b></div>
+													<h6 class="hinfo">Active Shares</h6>
+												</div><span class="span-right2"><i class="fa fa-shopping-bag icolor2"
+														aria-hidden="true"></i></span>
+											</div><br>
+											<div class="item3 faa-parent animated-hover faa-float">
+												<div class="main-wrapper">
+													<div class="textleft"><i class="fa fa-btc" aria-hidden="true"></i>
+														<b>11.45883000</b></div>
+													<h6 class="hinfo">Shares Value</h6>
+												</div><span class="span-right3"><i class="fa fa-university icolor3"
+														aria-hidden="true"></i></span>
+											</div>
+											<div class="item4 faa-parent animated-hover faa-float">
+												<div class="main-wrapper">
+													<div class="textleft"><b>70,402</b></div>
+													<h6 class="hinfo">Share Holders</h6>
+												</div><span class="span-right4" style=" right: -48px; "><i
+														class="fa fa-user-o icolor4" aria-hidden="true"></i></span>
+											</div>
+										</center>
+									</div>
+								</div>
+							</div><br><br>
+						</div>
+						<center style="margin-top: 25px; margin-bottom: 30px;">
+							<div class="theme-title" style=" padding-bottom: 0px; ">
+								<h2> Our <span>Partners</span></h2>
+							</div><img class="zoom" src="/img/partners/kiwiwall.png"
+								style=" display: inline; margin-right: -10px; " width="100">
+							<img src="./tmp/assets/images/adgatemedia.png"
+								style=" display: inline; margin-right: -8px; " width="120">
+							<img src="./tmp/assets/images/offertoro.png" style=" display: inline; " width="120">
+							<img src="./tmp/assets/images/pollfish.png" style=" display: inline; margin-right: 16px; "
+								width="120">
+							<img src="./tmp/assets/images/cpx-research.png"
+								style=" display: inline; margin-right: 16px; margin-bottom: -2px;" width="130">
+							<img src="./tmp/assets/images/adgem.png" style=" display: inline; margin-right: 16px; "
+								width="100">
+							<img src="./tmp/assets/images/wannads.png" style=" display: inline; margin-right: 16px;"
+								width="100">
+							<img src="./tmp/assets/images/offerdaddy.png" style=" display: inline; " width="100">
+							<div>
+								<img src="./tmp/assets/images/coin-payments.jpg"
+									style="display: inline;margin-right: 1px;margin-bottom: 5px;" width="150">
+								<img src="./tmp/assets/images/coinzilla.jpg"
+									style=" display: inline; margin-right: 10px; " width="120">
+								<img src="./tmp/assets/images/cointraffic.png"
+									style="display: inline;margin-right: 2px;margin-top: 3px;" width="120">
+								<img src="./tmp/assets/images/bitmedia.png"
+									style=" display: inline; margin-right: 3px; margin-top: 4px;" width="130">
+								<img src="./tmp/assets/images/faucetpay.png"
+									style=" display: inline; margin-right: 10px; " width="110">
+							</div>
+						</center>
+					</div>
+				</div>
+				<div class="our-work-progress bg-color" id="how">
+					<div class="main-wrapper clearfix">
+						<div class="section-title-wrapper clearfix">
+							<div class="theme-title">
+								<div class="upper-heading">Getting Started</div>
+								<h2><span>How to </span>Start &amp; Earn?</h2>
+								<p>It's very easy to start Earning experience with CryptoWin. Just follow these simple 5
+									steps and you're ready!</p>
+							</div>
+						</div>
+						<div class="progress-slider-wrapper">
+							<div class="progress-slider owl-carousel owl-theme owl-loaded">
+								<div class="owl-stage-outer">
+									<div class="owl-stage"
+										style="transform: translate3d(-1158.67px, 0px, 0px); transition: all 1.2s ease 0s; width: 3186.34px;">
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="/assets/home/images/icon/13.png" alt="">
+													</div>
+													<h3>Instant Earning</h3>
+													<p>Try our low timer Bitcoin Faucet for instant-rewards.</p>
+													<div class="num">3</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="/assets/home/images/icon/11.png" alt="">
+													</div>
+													<h3>Try other Methods</h3>
+													<p>Invest, View Ads, do Offers, play Games and lots more...</p>
+													<div class="num">4</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="/assets/home/images/icon/12.png" alt="">
+													</div>
+													<h3>Withdraw Earnings</h3>
+													<p>Instant withdraw to FaucetPay or your own Bitcoin Wallet.</p>
+													<div class="num">5</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="/assets/home/images/icon/11.png" alt="">
+													</div>
+													<h3>Create an Account </h3>
+													<p>Easy proccess. It will take you 1 minute to register.</p>
+
+													<div class="num">1</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item active" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon">
+														<img src="./tmp/assets/images/12.png" alt="">
+													</div>
+													<h3>Verify New Account</h3>
+													<p>Check your e-mail for account confirmation link.</p>
+													<div class="num">2</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item active" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon">
+														<img src="./tmp/assets/images/13.png" alt="">
+													</div>
+													<h3>Instant Earning</h3>
+													<p>Try our low timer Bitcoin Faucet for instant-rewards.</p>
+													<div class="num">3</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item active" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="./tmp/assets/images/11.png" alt="">
+													</div>
+													<h3>Try other Methods</h3>
+													<p>Invest, View Ads, do Offers, play Games and lots more...</p>
+													<div class="num">4</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="./tmp/assets/images/12.png" alt="">
+													</div>
+													<h3>Withdraw Earnings</h3>
+													<p>Instant withdraw to FaucetPay or your own Bitcoin Wallet.</p>
+													<div class="num">5</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="./tmp/assets/images/11.png" alt="">
+													</div>
+													<h3>Create an Account </h3>
+													<p>Easy proccess. It will take you 1 minute to register.</p>
+													<div class="num">1</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="./tmp/assets/images/icon/12.png" alt="">
+													</div>
+													<h3>Verify New Account</h3>
+													<p>Check your e-mail for account confirmation link.</p>
+													<div class="num">2</div>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item cloned" style="width: 259.667px; margin-right: 30px;">
+											<div class="item">
+												<div class="inner-block">
+													<div class="icon"><img src="./tmp/assets/images/icon/13.png" alt="">
+													</div>
+													<h3>Instant Earning</h3>
+													<p>Try our low timer Bitcoin Faucet for instant-rewards.</p>
+													<div class="num">3</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="owl-controls">
+									<div class="owl-nav">
+										<div class="owl-prev" style="display: none;">prev</div>
+										<div class="owl-next" style="display: none;">next</div>
+									</div>
+									<div style="display: none;" class="owl-dots"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="theme-counter" id="stats" style="margin-top: -60px;">
+					<div class="container">
+						<div class="bg-image">
+							<div class="row theme-title">
+								<div class="col-lg-6 order-lg-last">
+									<h2><span>Fastest </span> Growing Bitcoin Rewards Platform.</h2>
+								</div>
+								<div class="col-lg-6 order-lg-first">
+									<p>We’re one of the fastest growing platform with a strong community. Check our info
+										with some numbers.</p>
+								</div>
+							</div>
+							<div class="counter-wrapper">
+								<div class="row">
+									<div class="col-sm-4">
+										<h2 class="number">478,284</h2>
+										<p>Users Registered</p>
+									</div>
+									<div class="col-sm-4">
+										<h2 class="number">75,680,352</h2>
+										<p>Ad Clicks</p>
+									</div>
+									<div class="col-sm-4">
+										<h2 class="number">31.87811616</h2>
+										<p>Total Paid (BTC)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<center style=" padding-bottom: 50px; margin-top: -40px; "></center>
+				</div>
+				<div class="testimonial-section" style=" background-color: #f8fafc; margin-top: 40px; ">
+					<div class="container">
+						<div class="theme-title text-center"><br>
+							<div class="upper-heading">Testimonials</div>
+							<h2>Our Users <span>Reviews</span></h2>
+						</div>
+						<div class="testimonial-slider owl-carousel owl-theme owl-loaded">
+							<div class="owl-stage-outer">
+								<div class="owl-stage"
+									style="transform: translate3d(-10200px, 0px, 0px); transition: all 1.2s ease 0s; width: 12000px;">
+									<div class="owl-item cloned" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">MM Khan</h3>
+													<span>December 5, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“Though, I
+														personally am using, it's investment feature as well for the
+														last Eight (08) months (5+ Stars to it's Interest Feature at its
+														own).”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/61ac72830b7cbbcbfe011b61"
+														class="arrow" target="_blank">
+														Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item cloned" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">MLS AFD</h3>
+													<span>May 12, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“One of
+														the most profitable site in the faucet sites industry.... Please
+														keep it up going.”</p>
+													<a href="https://www.trustpilot.com/reviews/609b9a2cf9f4870a949fb9c5"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">Quan ㄨa</h3>
+													<span>January 6, 2022</span>
+													<p><img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“This site is paying, the best btc faucet website in 2022. I
+														have been using their faucet, and all my withdrawal have been
+														paid...”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/61d69f59e1196e51d75b0c65"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Edison Oruerio</h3>
+													<span>April 14, 2021</span>
+													<p><img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/4stars.png" class="sign" border="0"><br>
+														“Paying like they promisedThey kept their words. I got my
+														satoshi in my faucetpay wallet stress free.”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/60d068c8f9f48703b0f42932"
+														class="arrow" target="_blank">
+														Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Виктор Ляпунов</h3>
+													<span>January 11, 2022</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“не сразу
+														понял что надёжный сайт. Мне нравится прикольно, надёжно и думаю
+														надолго”</p>
+													<a href="https://www.trustpilot.com/reviews/61dd9241e1196e51d76055ee"
+														class="arrow" target="_blank">
+														Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">Hmida Karim</h3>
+													<span>January 4, 2022</span>
+													<p>
+														<img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“I have more than year work with this site i never see more
+														trusted and reliable before. Thank u so much admin cryptowin.”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/61d44f1ba16c1e751f5e951b"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">GPG</h3>
+													<span>June 27, 2021</span>
+													<p><img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“Cryptowin is a trustworthy. They solved my problem. Great
+														site... Thanks you cryptowin team.”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/60d81da9f9f48707ecabe201"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">Shorty Music</h3>
+													<span>February 23, 2022</span>
+													<p>
+														<img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“Hello all dear friends I want say thanks to Admin of this site.
+														Great work. Site give free crypto everyone who need it, many
+														variations of earnings. Stability 0.7% on interest its so cool -
+														amazing!!!”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/6215980ce0365cc27e76ab49"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">Milan</h3>
+													<span>December 17, 2021</span>
+													<p>
+														<img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“A very good site. A very good site Faucetpay withdrawals are
+														processed instantly.”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/61bb33c70430e828ebd4d359"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial">
+													<img src="/img/testimonial2.png" alt="">
+												</div>
+												<div class="text">
+													<h3 class="name">Georgi Vasilev</h3>
+													<span>November 29, 2021</span>
+													<p>
+														<img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>
+														“This crypto faucet is the best I have ever used. There is great
+														savings interest. The lottery is simply the best. I won 28043
+														satoshi with just 8 tickets...”
+													</p>
+													<a href="https://www.trustpilot.com/reviews/61a406328931a3308739f35f"
+														class="arrow" target="_blank">Read full review &nbsp;
+														<i class="flaticon-right-thin"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Abhilash Baidya</h3><span>January 15, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“This is
+														literally one of the Best Bitcoin Earning website. I received my
+														first payment in just 3 minutes.”</p><a
+														href="https://www.trustpilot.com/reviews/61a406328931a3308739f35f"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Milan</h3><span>February 21, 2022</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“I just
+														received a $39 worth payment. So far, these guys have been very
+														honest.”</p><a
+														href="https://www.trustpilot.com/reviews/6213c5b7e0365cc27e752fd2"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Harshada Dixit</h3><span>November 30, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“This
+														company is 100000% ligit still withdrawing thank u so much god
+														blessed u 🥳🥳🥳🥳”</p><a
+														href="https://www.trustpilot.com/reviews/61a5e93bbd63dda482698e5e"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Legends Man</h3><span>December 5, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/4stars.png" class="sign" border="0"><br>“It's
+														amazing I have start and now this time I have earn satoshis with
+														long it's very active and real payout website.I love it❤️❤️”</p>
+													<a href="https://www.trustpilot.com/reviews/61ac10222b49257fe2956aef"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Abhilash Baidya</h3><span>January 15, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“This is
+														literally one of the Best Bitcoin Earning website. I received my
+														first payment in just 3 minutes.”</p><a
+														href="https://www.trustpilot.com/reviews/6001c4be755dc107e87f04b1"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Frank 747</h3><span>January 16, 2022</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“Excelente
+														página. Sigue pagando sin falta. La recomiendo.”</p><a
+														href="https://www.trustpilot.com/reviews/61e4d162e1196e51d765e0fd"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">MM Khan</h3><span>December 5, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“Though, I
+														personally am using, it's investment feature as well for the
+														last Eight (08) months (5+ Stars to it's Interest Feature at its
+														own).”</p><a
+														href="https://www.trustpilot.com/reviews/61ac72830b7cbbcbfe011b61"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item active" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">MLS AFD</h3><span>May 12, 2021</span>
+													<p><img style="width:100px; height:auto; margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“One of
+														the most profitable site in the faucet sites industry.... Please
+														keep it up going.”</p><a
+														href="https://www.trustpilot.com/reviews/609b9a2cf9f4870a949fb9c5"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item cloned active" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Quan ㄨa</h3><span>January 6, 2022</span>
+													<p><img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/5stars.png" class="sign" border="0"><br>“This site
+														is paying, the best btc faucet website in 2022. I have been
+														using their faucet, and all my withdrawal have been paid...”</p>
+													<a href="https://www.trustpilot.com/reviews/61d69f59e1196e51d75b0c65"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item cloned" style="width: 570px; margin-right: 30px;">
+										<div class="item">
+											<div class="single-block clearfix">
+												<div class="testimonial"><img src="/img/testimonial2.png" alt=""></div>
+												<div class="text">
+													<h3 class="name">Edison Oruerio</h3><span>April 14, 2021</span>
+													<p><img style="width:100px; height:auto;margin-bottom:-25px;"
+															src="/img/4stars.png" class="sign" border="0"><br>“Paying
+														like they promisedThey kept their words. I got my satoshi in my
+														faucetpay wallet stress free.”</p><a
+														href="https://www.trustpilot.com/reviews/60d068c8f9f48703b0f42932"
+														class="arrow" target="_blank">Read full review &nbsp;<i
+															class="flaticon-right-thin"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="owl-controls">
+								<div class="owl-nav">
+									<div class="owl-prev" style="display: none;">prev</div>
+									<div class="owl-next" style="display: none;">next</div>
+								</div>
+								<div style="" class="owl-dots">
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot"><span></span></div>
+									<div class="owl-dot active"><span></span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="contact-us-one" id="contact">
+					<div class="overlay">
+						<div class="container">
+							<div class="theme-title text-center">
+								<h2>Contact us</h2>
+								<p>Want to get in touch? drop us an e-mail. We'd love to hear from you.</p>
+							</div>
+							<center>
+								<a href="mailto:support@cryptowin.io"
+									style=" color: #fff9ab; font-size: 25px; margin-top: 18px; ">
+									<i class="fa fa-envelope" aria-hidden="true"></i> support@cryptowin.io
+								</a>
+							</center>
+							<div class="alert-wrapper" id="alert-success">
+								<div id="success">
+									<button class="closeAlert">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</button>
+									<div class="wrapper">
+										<p>Your message was sent successfully.</p>
+									</div>
+								</div>
+							</div>
+							<div class="alert-wrapper" id="alert-error">
+								<div id="error">
+									<button class="closeAlert">
+										<i class="fa fa-times" aria-hidden="true"></i>
+									</button>
+									<div class="wrapper">
+										<p>Sorry! Something Went Wrong.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer class="theme-footer">
+					<div class="container">
+						<div class="inner-wrapper">
+							<div class="top-footer-data-wrapper">
+								<div class="row">
+									<div class="col-lg-4 col-sm-6 footer-logo">
+										<div class="logo">
+											<a href="/"><img src="./tmp/assets/images/cwlg.png" width="200"
+													height="auto" border="0"></a>
+										</div>
+										<p style="font-style: italic;font-size: 16px;">
+											“Bitcoin was created to serve a highly political intent, a free and
+											uncensored network where all can participate with equal access.” – <b>Amir
+												Taaki</b>
+										</p>
+									</div>
+									<div class="col-lg-2 col-sm-6 footer-list">
+										<h4 class="title">Get Started</h4>
+										<ul>
+											<li><a href="/account"><i class="fa fa-pie-chart" aria-hidden="true"></i>
+													Dashboard</a></li>
+											<li><a href="/faucet"><i class="fa fa-gift" aria-hidden="true"></i> Claim
+													Reward</a></li>
+											<li><a href="/advertise/surf/"><i class="fa fa-bullhorn"
+														aria-hidden="true"></i> Advertise</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 footer-list">
+										<h4 class="title">About Us</h4>
+										<ul>
+											<li><a href="/tos"><i class="fa fa-gavel" aria-hidden="true"></i> Terms of
+													Service</a></li>
+											<li><a href="/privacy"><i class="fa fa-address-card" aria-hidden="true"></i>
+													Privacy Policy</a></li>
+											<li><a href="/payments"><i class="fa fa-money" aria-hidden="true"></i>
+													Payment Proof</a></li>
+										</ul>
+									</div>
+									<div class="col-lg-3 col-sm-6 footer-list">
+										<h4 class="title">Support</h4>
+										<ul>
+											<li><a style="cursor: pointer;" href="#contact"><i class="fa fa-envelope"
+														aria-hidden="true"></i> Contact</a></li>
+											<li><a href="/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+													News</a></li>
+											<li><a href="/faq"><i class="fa fa-question-circle" aria-hidden="true"></i>
+													F.A.Q.</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<center>
+								<div class="bottom-footer clearfix">
+									<span class="copyright"
+										style=" width: 100%; text-align: center; margin: 0; position: relative; ">©
+										2020-2023 Copyright
+										<a style=" color: #02d4b5; font-weight: 600; text-decoration: none; "
+											href="https://cryptowin.io/"> CryptoWin.io</a>
+									</span><br>
+									<div>
+										<p
+											style="color: #60af5a;font-size: 14px;position: revert;text-align: center;padding: 6px;display: inline-block;">
+											<i class="fa fa-lock" aria-hidden="true"></i> 256-bit encryption
+										</p>
+										<p
+											style="color: #60af5a;font-size: 14px;display: inline-block;position: revert;text-align: center;padding: 6px;">
+											<i class="fa fa-shield" aria-hidden="true"></i> Ddos Protection by
+											Cloudflare
+										</p>
+									</div>
+									<div class="row" style=" display: inline-flex; ">
+										<div>
+											<a href="https://www.trustpilot.com/review/cryptowin.io?stars=4&amp;stars=5"
+												target="_blank">
+												<img src="/img/Trustpilot.png" width="200" height="auto" border="0">
+											</a>
+										</div>
+										<div style=" position: relative; top: 12px; left: 0px; ">
+											<a href="//twitter.com/CryptowinI" target="_blank"
+												style="font-size: 15px; color: #727b7a;">
+												<i class="fa fa-twitter" aria-hidden="true"
+													style="color: #01daba; ">&nbsp;follow</i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</center>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<button class="scroll-top tran3s color-one-bg" style="display: none;">
+				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+			</button>
+
+
+
+		</div>
+
+
+		<!-- -->
+	</div>
+
+	<script>
+		const { createApp, ref } = Vue;
+
+		const App = {
+			setup() {
+				const val = ref(null);
+
+				return {
+					val
+				};
+			},
+			components: {
+				'p-slider': primevue.slider
+			}
+		};
+
+		createApp(App).use(primevue.config.default).mount("#app");
+	</script>
+</body>
+
+</html>

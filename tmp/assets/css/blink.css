@@ -1,0 +1,2 @@
+/* view-source:https://cryptowin.io/css/blink.css?v=0.2 */
+.blinking{animation:blinkingText 1.2s infinite;top:-15px;left:-4px}@keyframes blinkingText{0%{color:#ffc561}49%{color:#ffc561}60%{color:transparent}99%{color:transparent}100%{color:#ffc561}}
